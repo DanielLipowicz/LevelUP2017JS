@@ -1,4 +1,3 @@
-
 var data = {
     "contact us": {
         'cssSelector': "#contact-link",
@@ -9,12 +8,9 @@ var data = {
         "value": 'Cart (empty)'
     },
 }
-
-
+using(data, function (element) {
     describe('Protractor Demo App element' + element , function () {
-        using(data, function (element) {
         it('should have a title', function () {
-
             browser.waitForAngularEnabled(false);
             browser.get('http://automationpractice.com/index.php');
 
