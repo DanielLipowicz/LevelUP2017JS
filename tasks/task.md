@@ -17,7 +17,6 @@ można wzbogacić test o dodatkowe walidacje np. inne produkty
 
 Stwórz taki scenariusz który bedzie zgody z dobrymi praktykami testu automatycznego funkcjonalnego
 
-
 3. opcjonalny - Scenariusz związany z angularem który zostanie przygotowany jeśli materiał z angularem zostanie zrealizowany w przyzwoitym czasie
 
 <b>dla ambitnych<b>
@@ -35,3 +34,4 @@ var itemDescriptionSource = function () {
             }, 5000)
     });
 };
+
