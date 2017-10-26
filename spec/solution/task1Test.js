@@ -16,7 +16,7 @@ describe('Protractor Demo App', function () {
 
         //browser.wait(argument pierwszy jest wyrazeniem expected condition który jest czescią protractor API - zwraca on wartosc boolean ktora przerywa czekanie i mozemy przejsc dalej. Drugi argument mowi nam o czasie w ktorym czekanie zostanie przerwane i przejdziemy dalej)
         browser.wait(EC.visibilityOf(productPage.headerTextInPopup), 5000)
-            .then(function () {
+            .then(function () {p
                 expect(productPage.headerTextInPopup.getText()).toEqual("wreszcie to złapałem");
             })
         
