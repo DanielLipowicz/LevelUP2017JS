@@ -15,13 +15,13 @@ var data = {
         "selector": "sizeL",
         "atributteValue": "3_1"
     }
-
 }
 
 describe('Protractor Demo App', function () {
     browser.get(womenPage.URL);
 
     using(data, function (tc) {
+
         it('chose size', function () {
             womenPage[tc.selector].click();
             expect(womenPage[tc.selector].getAttribute("value")).toEqual(tc.atributteValue)

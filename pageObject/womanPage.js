@@ -8,6 +8,8 @@ var WomenPage = function () {
     //
 
     //checkbox
+    this.allSizeCheckbox = element.all(By.css('#ul_layered_id_attribute_group_1>li>div>span>input'));
+
     this.sizeS = $('#layered_id_attribute_group_1');
     this.sizeM = $('#layered_id_attribute_group_2');
     this.sizeL = $('#layered_id_attribute_group_3');
