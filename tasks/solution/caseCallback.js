@@ -1,8 +1,10 @@
+// uruchomic poprzez 'ode tasks\solution\caseCallback.js'
+
 var f1 = function () {
-    // return new Promise(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
             setTimeout(function () { console.log('1'); resolve(); }, 
             Math.floor((Math.random() * 1000) + 1));//do not edit
-    // });
+    });
 }
 var f2 = function () {
     return new Promise(function (resolve, reject) {

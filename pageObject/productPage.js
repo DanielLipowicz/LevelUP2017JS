@@ -30,7 +30,7 @@ ProductPage.prototype.getPopupText = function () {
 
 ProductPage.prototype.getUndefinedPopupText = function () {
     var that = this;
-    return that.headerTextInPopup.getText()+ " !!tak sie nie moze udac";
+    return that.headerTextInPopup.getText()+ " !!tak wlasnie mialo sie stac";
 }
 
 ProductPage.prototype.getRichPopupText = function () {
