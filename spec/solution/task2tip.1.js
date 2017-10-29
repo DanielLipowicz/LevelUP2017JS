@@ -1,4 +1,4 @@
-var WomenPage = require(pageObjectDir + "/womanPage.js");
+var WomenPage = require(pageObjectDir + "/womenPage.js");
 var womenPage = new WomenPage();
 
 //womenPage['sizeS']
@@ -16,7 +16,6 @@ var data = {
         "atributteValue": "3_1"
     }
 }
-
 
 beforeAll(function () {
     browser.get(womenPage.URL);
