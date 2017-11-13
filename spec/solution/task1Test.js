@@ -18,8 +18,7 @@ describe('Protractor Demo App', function () {
         browser.wait(EC.visibilityOf(productPage.headerTextInPopup), 5000)
             .then(function () {p
                 expect(productPage.headerTextInPopup.getText()).toEqual("wreszcie to złapałem");
-            })
-        
+            });
     });
 
     xit('chose size, add to chart and checking if cart contains the product', function () {

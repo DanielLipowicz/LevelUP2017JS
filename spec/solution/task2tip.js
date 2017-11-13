@@ -1,4 +1,4 @@
-var WomenPage = require(pageObjectDir + "/womanPage.js");
+var WomenPage = require(pageObjectDir + "/womenPage.js");
 var womenPage = new WomenPage();
 
 //womenPage['sizeS']
